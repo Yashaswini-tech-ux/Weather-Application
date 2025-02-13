@@ -89,13 +89,13 @@ function updateBackground(weatherCondition) {
     let backgroundImage = "";
 
     switch (weatherCondition.toLowerCase()) {
-        case "sunny":
+        case "clear":
             backgroundImage = "url('https://raw.githubusercontent.com/Yashaswini-tech-ux/Weather-Application/main/Sunny.jpg')";
             break;
-        case "cloudy":
+        case "clouds":
             backgroundImage = "url('https://raw.githubusercontent.com/Yashaswini-tech-ux/Weather-Application/main/Cloudy.jpg')";
             break;
-        case "rainy":
+        case "rain":
         case "drizzle":
             backgroundImage = "url('https://raw.githubusercontent.com/Yashaswini-tech-ux/Weather-Application/main/rainy.jpg')";
             break;
@@ -106,7 +106,7 @@ function updateBackground(weatherCondition) {
             backgroundImage = "url('https://raw.githubusercontent.com/Yashaswini-tech-ux/Weather-Application/main/snow.jpg')";
             break;
         case "mist":
-        case "foggy":
+        case "fog":
             backgroundImage = "url('https://raw.githubusercontent.com/Yashaswini-tech-ux/Weather-Application/main/Foggy.jpg')";
             break;
         default:
