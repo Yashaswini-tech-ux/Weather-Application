@@ -110,7 +110,7 @@ function updateBackground(weatherCondition) {
             backgroundImage = "url('https://raw.githubusercontent.com/Yashaswini-tech-ux/Weather-Application/main/Foggy.jpg')";
             break;
         default:
-            backgroundImage = "url('https://raw.githubusercontent.com/Yashaswini-tech-ux/Weather-Application/main/deafult.jpg')"; // Fallback background
+            backgroundImage = "url('https://raw.githubusercontent.com/Yashaswini-tech-ux/Weather-Application/main/defaulthaze.jpg')"; // Fallback background
     }
 
     weatherApp.style.backgroundImage = backgroundImage;
